@@ -1,0 +1,35 @@
+{
+    "data_dir": "./data/processed/",
+    "dataset": "SNLI",
+    "log_dir": "logs",
+    "log": true,
+    "log_idx": 500,
+    "use_pretrain": true,
+    "pretrained_path": "./data/processed/emb_glove_300.npy",
+    "model_name": "ESIM",
+    "verbose": true,
+    "stats": true,
+    "stats_idx": 2,
+
+    "use_char": true,
+    "use_pos": true,
+    "use_local_feats": true,
+    "word_lower": true,
+    "char_max": 16,
+    "qmax": 80,
+    "amax": 60,
+    
+    "embedding_dim": 300,
+    "hidden_dim": 300,
+    "dropout": 0.5,
+    "num_classes": 3,
+    "freeze_embeddings": false,
+
+    "epochs": 64,
+    "batch_size": 128,
+    "lr": 0.0004,
+    "lr_decay": 0.5,
+    "decay_patience": 1,
+    "max_grad_norm": 5.0,
+    "patience": 5
+}
