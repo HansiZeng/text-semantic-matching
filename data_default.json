@@ -1,0 +1,12 @@
+{
+"data_dir": "./datasets/SNLI",
+"dest_dir": "./datasets/SNLI/processed/",
+
+"use_char": true,
+"use_pos": true,
+"use_local_feats": true,
+"word_lower": true,
+"char_max": 16,
+"qmax": 80,
+"amax": 60
+}
