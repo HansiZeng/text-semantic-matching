@@ -1,5 +1,5 @@
 # text-semantic-matching
-The repository contains several Pytorch model implementations for text semantic matching, and the implemented models are as followed,
+The repository contains several Pytorch model implementations for text semantic matching. The implemented models are as followed,
 - ESIM [Enhanced LSTM for Natural Language Inference](https://arxiv.org/pdf/1609.06038.pdf)
 - CAFE [Compare, Compress and Propagate: Enhancing Neural Architectures with Alignment Factorization for Natural Language Inference](https://arxiv.org/abs/1801.00102)
 - RE2 [Simple and Effective Text Matching with Richer Alignment Features](https://www.aclweb.org/anthology/P19-1465/)
